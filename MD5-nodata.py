@@ -186,7 +186,7 @@ def makeStringBycopyAndby():
     print(strall)
     # nothing wrong down here
     print("MyRe:" + MD5cry(strall))
-    print("REAL:" + "signature=cc3de33cfc4f46b418264513aa75eb46")
+    print("REAL:" + "signature=signatureToReplace")
 
 def makeStringAll():
     beforeStr = input("input:")
