@@ -435,7 +435,7 @@ def makeStringAddAllInt():
 
 
 
-def MD5cry(stringTo):
+def MD5cry(stringTo):                                    #md5加密
     hash_md5 = hashlib.md5(stringTo.encode("utf8"))
     return hash_md5.hexdigest()
 
